@@ -35,6 +35,7 @@ function ghostCard({ ghost }) {
 export default function App() {
   return <div className="app">
     <div className="cards">
+      Something should be here
       {secondGhost.map((ghost, i) =>(
         <ghostCard key={i} ghost={ghost} />
       ))}
