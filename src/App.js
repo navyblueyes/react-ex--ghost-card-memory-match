@@ -17,11 +17,11 @@ const secondGhost = [...ghost, ...ghost];
 
 function ghostCard({ ghost }) {
   return (
-    <div className="card" key={index}>
+    <div className="card">
       <div className="inner">
         <div className="front">
-          <img 
-            src={`../public/ghosts/${ghost.id}.png`} 
+          <img
+            src={`../public/ghosts/${ghost.id}.png`}
             alt={ghost.name}
             width="100"
           />
